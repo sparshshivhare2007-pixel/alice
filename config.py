@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = "26407665"
+API_HASH = "f10822a551f38b26ee1179e1a6515e01"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "8322217849:AAF-NB3bUKREBPbgvb4ZfSxe8B3mN6PwTWk"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = "-1002909920769"
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = OWNER_ID
+OWNER_ID = "8158429107"
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rishabhops/alice",
+    "https://github.com/sparshshivhare2007-pixel/alice.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/thanos_pro"
-SUPPORT_GROUP = "https://t.me/thanosprosss"
+SUPPORT_CHANNEL = "https://t.me/SHIMZUKA_NETWORK"
+SUPPORT_GROUP = "https://t.me/SHIMZUKA_SUPPORT"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,20 +77,20 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+START_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
 
-PING_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
+PING_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
-STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+STATS_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+STREAM_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/ae01ab36b2fc648fbf253-6f8623bd574f5b1174.jpg"
 
 
 def time_to_seconds(time):
@@ -112,3 +112,4 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
