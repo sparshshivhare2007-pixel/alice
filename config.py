@@ -19,7 +19,7 @@ MONGO_DB_URI = "mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = "-1002909920769"
+LOG_GROUP_ID = "-1003069480186"
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = "8158429107"
@@ -112,5 +112,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
